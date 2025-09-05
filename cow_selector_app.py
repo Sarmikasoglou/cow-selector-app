@@ -4,8 +4,8 @@ import pandas as pd
 import plotly.express as px
 import re
 
-st.set_page_config(page_title="Cow Selector", layout="wide")
-st.title("🐄 Cow Selector")
+st.set_page_config(page_title="MooSelect", layout="wide")
+st.title("🐄 MooSelect")
 
 uploaded_file = st.file_uploader("Upload your farm CSV file", type=["csv"])
 
